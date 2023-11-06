@@ -1,0 +1,180 @@
+@font-face {
+   font-family: "Anonymous Pro";
+   src: url(fonts/AnonymousPro-Bold.ttf);
+   font-weight: 700;
+}
+
+@font-face {
+ font-family: "Anonymous Pro";
+ src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+body {
+   margin: 0px;
+}
+.header {
+   background-color: #FFFFFF;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+.header__content {
+   width: 1161px;
+   height: 142px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+}
+.header-social-contacts {
+   display: flex;
+   column-gap: 24px;
+   padding: 0px;
+   list-style: none;
+ 
+}
+
+.header-social-contacts-link {
+   font-family: Anonymous Pro;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 20px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: black;
+   text-decoration: none;
+}
+.main{
+   background-color: #F1F1F1;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+}
+.main-container {
+   width: 100%;
+   max-width: 1161px;
+   padding-bottom: 24px;
+}
+.sneakers-cards {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   column-gap: 24px;
+   row-gap: 24px;
+   
+}
+.sneaker-card {
+   display: flex;
+   flex-direction: column;
+   width: 371px;
+   border-radius: 12px;
+   background-color: #FFFFFF;
+   
+}
+.sneaker-card img {
+   width: 371px; 
+   height: 254px;
+}
+.sneaker-card-title {
+   display: flex;
+   align-items: flex-start;
+   flex-direction: column;
+   row-gap: 10px;
+   padding: 32px 24px;
+}
+.main-container-title {
+   font-family: "Anonymous Pro", sans-serif ;
+   font-weight: 700;
+   font-size: 48px;
+   padding: 25px 0 24px 0;
+   margin: 0px;
+
+}
+
+h3 {
+    font-family: "Anonymous Pro", sans-serif ;
+   font-size: 26px;
+   font-weight: 700;
+   margin: 0;
+ }
+
+ h4 {
+    font-family: "Anonymous Pro", sans-serif ;
+    font-weight: 400;
+   font-size: 20px;
+   margin: 0;
+ }
+
+ .footer {
+   background-color: #121723;
+   width: 100%;
+}
+.footer-logo img {
+   width: 299.65px;
+   height: 22.32px;
+
+}
+.footer-content-main {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   width: 100%;
+   
+}
+
+.footer__content {
+   max-width: 1161px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 32px;
+   
+}
+
+.footer-social-contacts {
+   display: flex;
+   column-gap: 24px;
+   padding: 0px;
+   list-style: none;
+}
+.footer-social-contacts-link {
+   font-family: Anonymous Pro;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 20px;
+   letter-spacing: 0em;
+   text-align: left;
+   color:#FFFFFF;
+   text-decoration: none;
+}
+
+.splitter{
+   background-color: #FFFFFF;
+   height: 1px; 
+   width: 100%;
+   max-width: 1161px; 
+   margin-top: 32px;
+}
+
+.footer-bottom{
+   text-align: center;
+   
+}
+
+.footer-bottom-text{
+  font-family: "Anonymous Pro", sans-serif ;
+  color: #A1A6B4;
+  font-size: 16px;
+  padding-top: 18px;
+  padding-bottom: 21px;
+  font-family: Anonymous Pro;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+}
